@@ -1,0 +1,16 @@
+Blob myDataBlob = Blob.valueOf('my text to convert');
+System.debug(myDataBlob);
+
+Object myData = 1618;
+Object myDataString = '1618';
+Integer myIntegerData = (Integer)myData;
+String myStringData = (String)myDataString;
+System.debug(myIntegerData);
+System.debug(myStringData);
+
+enum Direction {NORTH, SOUTH, EAST, WEST}
+Direction north = Direction.NORTH;
+Direction north1 = Direction.NORTH;
+System.debug(north);
+System.debug(north1);
+System.assertEquals(NORTH, north);
