@@ -14,3 +14,19 @@ Direction north1 = Direction.NORTH;
 System.debug(north);
 System.debug(north1);
 System.assertEquals(NORTH, north);
+
+Double x = 12.4 - 3.3;
+Double y = 12.4 - 3.3;
+
+Integer x2 = 20 / 3;
+System.debug(x2);
+
+Double y2 = 20.0 / 3;
+System.debug(y2);
+
+Double y3 = 5.0 / 2;
+System.debug(y3);
+
+helloWorld.helloWorld();
+System.debug(helloWorld.x);
+System.debug(helloWorld.y);
