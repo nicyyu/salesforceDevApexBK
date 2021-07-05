@@ -29,4 +29,5 @@ System.debug(y3);
 
 helloWorld.helloWorld();
 System.debug(helloWorld.x);
-System.debug(helloWorld.y);
+helloWorld hw = new helloWorld();
+System.debug(hw.y);
