@@ -31,3 +31,5 @@ helloWorld.helloWorld();
 System.debug(helloWorld.x);
 helloWorld hw = new helloWorld();
 System.debug(hw.y);
+
+polymorphicShapes.printArea(new rectangle(3,6));
