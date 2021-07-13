@@ -1,4 +1,5 @@
 public with sharing class TaskTriggerHandler {
+    
     public TaskTriggerHandler() {
 
     }
@@ -28,7 +29,7 @@ public with sharing class TaskTriggerHandler {
         }
         update contactMap.values();
     }
-    
+
     public void afterUpdate(List<Task> newTasks, Map<Id, Task> oldTaskMap) {
         Set<Id> contactIds = new Set<Id>();
         for(Task t : newTasks) {
