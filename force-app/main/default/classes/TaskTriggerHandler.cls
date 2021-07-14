@@ -1,5 +1,8 @@
+//Count how many task under the contact record
+//
+//
 public with sharing class TaskTriggerHandler {
-    
+
     public TaskTriggerHandler() {
 
     }
