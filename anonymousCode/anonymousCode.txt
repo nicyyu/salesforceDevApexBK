@@ -33,3 +33,6 @@ helloWorld hw = new helloWorld();
 System.debug(hw.y);
 
 polymorphicShapes.printArea(new rectangle(3,6));
+
+List<AggregateResult> results = [SELECT COUNT(Id) number FROM Account];
+System.debug(results[0].get('number'));
