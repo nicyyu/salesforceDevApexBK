@@ -36,3 +36,19 @@ polymorphicShapes.printArea(new rectangle(3,6));
 
 List<AggregateResult> results = [SELECT COUNT(Id) number FROM Account];
 System.debug(results[0].get('number'));
+
+
+
+// sorting list
+List<String> colors = new List<String>{ 'Yellow', 'Red', 'Green' };
+colors.sort(); // Sorts list of string alphabetically
+System.debug(colors); // (Green, Red, Yellow)
+
+// sort accounts
+List<Account> accounts = [SELECT Id, Name, ShippingCountry FROM Account LIMIT 4];
+System.debug('before sort: ' + accounts);
+System.debug('list size: ' + accounts.size());
+SortableAccount.sort(accounts);
+System.debug('after sort: ' + accounts);
+
+

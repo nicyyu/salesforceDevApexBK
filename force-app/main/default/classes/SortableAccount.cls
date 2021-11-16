@@ -43,6 +43,8 @@ public class SortableAccount implements Comparable {
             sortableAccounts.add(new SortableAccount(acc));
         }
 
+        System.debug('sortableAccounts: ' + sortableAccounts);
+
         // Sort accounts using SortableAccount.compareTo
         sortableAccounts.sort();
 
